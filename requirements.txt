@@ -1,0 +1,3 @@
+numpy>=1.24
+plotly>=5.0
+matplotlib>=3.7  # optional: PNG gallery renderer
