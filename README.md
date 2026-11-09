@@ -39,10 +39,10 @@ python3 -m pip install -r requirements.txt   # numpy, plotly, matplotlib (option
 ```python
 from plotshapes import plotly_figures as pf
 
-fig = pf.circle_figure(radius=2.0)          # sampled points, filled Scatter trace
+fig = pf.circle_figure(radius=2.0)  # sampled points, filled Scatter trace
 fig.show()
 
-pf.circle_shape_figure(radius=2.0).show()   # Plotly layout shape
+pf.circle_shape_figure(radius=2.0).show()  # Plotly layout shape
 pf.rose_figure(k=5).write_html("rose.html")
 ```
 
